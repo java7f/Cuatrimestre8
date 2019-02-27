@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/MiniPtest.c
+Tokens.h
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/Tokens.h
+stdio.h
+-
+
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/Tokens.h
+stdio.h
+-
+

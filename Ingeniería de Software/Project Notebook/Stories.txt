@@ -1,0 +1,469 @@
+Story: Un Consumidor de Servicios se registra.
+
+Como Consumidor de Servicios 
+Deseo registrarme en el sistema
+Para poder tomar un turno.
+
+Escenario 1: El Consumidor de Servicios  no está registrado
+Dado que es un Consumidor de Servicios nuevo
+	Y no desea entrar como guest user
+Cuando el Consumidor de Servicios llene el campo de Nombre
+    Y el campo de Apellido
+    Y el campo de Email
+    Y el campo de Contraseña
+    Y solicite ser registrado
+Entonces la Aplicación debe decir que el registro fue exitoso
+    Y la Aplicación debe mostrar el Dashboard.
+
+
+Escenario 2: El Consumidor de Servicios ya está registrado
+Dado que un Consumidor de Servicios quiere registrarse
+    Y no desea entrar como guest user
+Cuando el Consumidor de Servicios llene el campo de Nombre
+    Y el campo de Apellido
+    Y el campo de Email
+    Y el campo de Contraseña
+Entonces Dado que el Email ya existe  
+Cuando el Consumidor de Servicios solicite ser registrado
+Entonces la Aplicación debe avisar que ya ese usuario existe
+    Y blanquear los campos de registro
+    Y pedir intentar otra vez
+
+-------------------------------------------------------------------------------
+
+Story: Un Consumidor de Servicios inicia sesión
+
+Como Consumidor de Servicios
+Deseo iniciar sesión en mi cuenta
+Para poder pedir un turno
+
+Escenario 1: La cuenta existe
+Dado que el Consumidor de Servicios ya está registrado
+    Y no desea entrar como guest user
+Cuando el Consumidor de Servicios llene el campo de Email
+    Y el campo de Contraseña
+Entonces la Aplicación debe mostrar el Dashboard
+
+Escenario 2: La contraseña es incorrecta
+Dado que el Consumidor de Servicios llenó los campos de log in
+    Y solicitó el inicio de sesión
+Cuando la verificación de la Constraseña ingresada no coincida con la registrada
+Entonces la Aplicación debe decir que la contraseña es incorrecta
+    Y blanquear el campo de Contraseña
+
+Escenario 3: La cuenta no existe
+Dado que el Consumidor de Servicios llenó los campos de log in
+    Y solicitó el inicio de sesión
+Cuando el Email ingresado no se encuentre en el sistema
+Entonces la Aplicación debe decir que el usuario no existe
+
+Escenario 4: El Consumidor de Servicios olvidó su contraseña
+Dado que el Consumidor de Servicios está registrado
+    Y no desea entrar como guset user
+    Y desconoce su contraseña
+Cuando solicite reestablecer su contraseña
+Entonces la Aplicación debe pedir el ingreso del Email de la cuenta
+    Y la Aplicación debe decir que revise su Email
+--------------------------------------------------------------------------------------
+
+Story: El Consumidor de Servicios selecciona una empresa
+
+Como Consumidor de Servicios
+Deseo elegir una empresa 
+Para poder pedir un turno 
+
+Escenario 1: El Consumidor de Servicios está como guest user
+Dado que el Consumidor de Servicios está en el Dashboard
+    Y no inició sesión en su cuenta
+Cuando el Consumidor navegue por el Dashboard
+Entonces la Aplicación debe solamente mostrar las empresas que acepten guest users
+
+Escenario 2: El Consumidor de Servicios inició sesión
+Dado que el Consumidor está en el Dashboard
+    E inició sesión en su cuenta
+Cuando el consumidor navegue por el Dashboard
+Entonces la Aplicación mostrará todas las empresas que están disponibles, sin importar si aceptan guest users o no
+
+--------------------------------------------------------------------------------------
+Story: Un Consumidor de Servicios pide un turno 
+
+Como Consumidor de Servicios
+Deseo solicitar un turno en una empresa
+Para poder disfrutar de sus servicios
+
+Escenario 1: La empresa otorga turnos por horarios
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por horarios 
+    Y eligió el servicio que desea consumir 
+Cuando el Consumidor de Servicios elija un horario de la lista de horarios disponibles
+Entonces la Aplicación deberá hacer la reserva 
+    Y avisar que la reserva fue realizada satisfactoriamente
+    Y colocar el horario seleccionado como ocupado
+
+Escenario 2: La empresa otorga turnos por generación de tickets
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por generación de tickets 
+    Y eligió el servicio que desea consumir
+    Y vio el tiempo estimado de espera
+Cuando el Consumidor de Servicios solicite un ticket
+Entonces la Aplicación deberá añadirlo al final de la cola 
+    Y avisar que la generación del ticket fue realizada satisfactoriamente
+    Y mostrar el número de ticket
+    Y actualizar el tiempo estimado de la cola
+    
+Escenario 3: El tiempo de espera sobrepasa la hora de cierre de la sucursal
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por generación de tickets 
+    Y eligió el servicio que desea consumir
+Cuando el Consumidor de Servicios solicite un ticket
+Entonces la Aplicación deberá avisar que no hay más tickets disponibles para ese día
+
+Escenario 4: No hay horarios disponbles para reservar
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por horarios 
+    Y eligió el servicio que desea consumir 
+Cuando intente elegir un horario
+Entonces la Aplicación debe mostrarle una lista vacía
+    Y avisar que no hay horarios disponibles
+
+Escenario 5: La sucursal está cerrada y desea un turno para el día siguiente
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por horarios 
+    Y eligió el servicio que desea consumir
+Cuando el Consumidor de Servicios elija un horario de la lista de horarios disponibles para el día siguiente
+Entonces la Aplicación deberá hacer la reserva 
+    Y avisar que la reserva fue realizada satisfactoriamente
+    Y colocar el horario seleccionado como ocupado
+
+Escenario 6: La sucursal no está cerrada y desea un turno para el día siguiente
+Dado que el Consumidor de Servicios ya seleccionó la sucursal
+    Y su criterio de turnos es por horarios 
+    Y eligió el servicio que desea consumir
+Cuando el Consumidor de Servicios elija un horario de la lista de horarios disponibles para el día siguiente
+Entonces la Aplicación debe avisar que no está permitido hacer reservas para ese día
+    
+-----------------------------------------------------------------------------------------
+
+Story: Un Consumidor de Servicios cancela un turno
+
+Como Consumidor de Servicios
+Deseo cancelar mi turno
+Para confirmar que no podré tomarlo
+
+Escenario 1: La empresa otorga turnos por generación de tickets
+Dado que el turno del Consumidor de Servicios sigue en la cola
+    Y desea cancelar su turno
+Cuando haga la solicitud de cancelar
+Entonces la Aplicación debe avisar que el turno fue cancelado exitosamente
+    Y eliminar el registro del turno en la cola
+    Y actualizar el tiempo de la cola
+
+Escenario 2: La empresa otorga turnos por reserva de horarios
+Dado que el turno del Consumidor de Servicios está reservado
+    Y aún no llega la hora de la reserva
+Cuando haga la solicitud de cancelar
+Entonces la Aplicación debe avisar que el turno fue cancelado exitosamente
+    Y colocar el horario disponible nuevamente
+
+
+----------------------------------------------------------------------------------------
+
+Story: El Consumidor de Servicios perdió el turno
+
+Como Empresa
+Deseo que se termine el turno de un Consumidor de Servicios que no se presentó
+Para poder atender a otro Consumidor 
+
+Escenario 1: La empresa otorga turnos por generación de tickets
+Dado que el Consumidor de Servicios no está presente en la sucursal
+Cuando se acabe el tiempo máximo de espera elegido por la empresa
+Entonces la Aplicación debe terminar el turno
+    Y mover las posiciones de la cola
+    Y actualizar el tiempo de espera
+
+----------------------------------------------------------------------------------------
+
+Story: El Consumidor de Servicios filtra por categoría
+
+Como Consumidor de Servicios
+Deseo filtrar por categoría las empresas en mi Dashboard
+Para ordenarlas según mi conveniencia
+
+Escenario 1: Filtrado por ubicación
+Dado que el Consumidor de Servicios está en el Dashboard
+
+
+
+----------------------------------------------------------------------------------------
+
+Story: El Consumidor de Servicios es preferencial
+
+Como Consumidor de Servicios en estado preferencial
+Deseo solicitar un turno en una empresa
+Para poder disfrutar de sus servicios
+
+Escenario 1: La sucursal tiene atención para personas preferenciales
+Dado que el Consumidor de Servicios preferencial ya seleccionó la sucursal
+    Y su criterio de turnos es por generación de tickets 
+    Y eligió el servicio que desea consumir
+    Y eligió un turno para preferenciales
+Cuando el Consumidor de Servicios solicite un ticket
+Entonces la Aplicación deberá añadirlo al final de la cola para preferenciales
+    Y avisar que la generación del ticket fue realizada satisfactoriamente
+    Y mostrar el número de ticket
+    Y actualizar el tiempo estimado de la cola de preferenciales
+
+
+----------------------------------------------------------------------------------------
+
+Story: El Consumidor de Servicios tiene una membresía
+
+Como Consumidor de Servicios con membresía
+Deseo solicitar un turno en una empresa
+Para poder disfrutar de sus servicios
+
+Escenario 1: La sucursal tiene atención para personas con membresía
+Dado que el Consumidor de Servicios preferencial ya seleccionó la sucursal
+    Y su criterio de turnos es por generación de tickets 
+    Y eligió el servicio que desea consumir
+    Y eligió un turno para personas con membresía
+    Y eligió el tipo de membresía
+Cuando el Consumidor de Servicios solicite un ticket
+Entonces la Aplicación deberá añadirlo al final de la cola de la membresía elegida
+    Y avisar que la generación del ticket fue realizada satisfactoriamente
+    Y mostrar el número de ticket
+    Y actualizar el tiempo estimado de la cola de la membresía
+
+----------------------------------------------------------------------------------------
+Story: Un Consumidor de Servicios busca una empresa
+
+Como Consumidor de Servicios
+Deseo poder buscar una empresa específica
+Para poder pedir un turno
+
+Escenario 1: La empresa está registrada y el Consumidor de Servicios inició sesión
+Dado que el Consumidor de Servicios está en la barra la de búsqueda
+    Y colocó el nombre de la empresa a la que quiere solicitar un turno
+Cuando solicite la búsqueda de la empresa
+Entonces la Aplicación deberá mostrar las sucursales de la empresa que buscó
+
+Escenario 2: La empresa está registrada y el Consumidor de Servicios entró como guest user
+Dado que el Consumidor de Servicios está en la barra la de búsqueda
+    Y colocó el nombre de la empresa a la que quiere solicitar un turno
+Cuando solicite la búsqueda de la empresa
+Entonces la Aplicación deberá mostrar las sucursales de la empresa únicamente si acepta guest users
+
+Escenario 3: La empresa no está registrada
+Dado que el Consumidor de Servicios está en la barra la de búsqueda
+    Y colocó el nombre de la empresa a la que quiere solicitar un turno
+Cuando solicite la búsqueda de la empresa
+Entonces la Aplicación deberá avisarle al consumidor que no hubo resultados para su búsqueda
+
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STORIES FOR WEB
+
+Story: Un Administrador registra su empresa
+
+Como Administrador
+Deseo registrar mi empresa en el sistema
+Para poder otorgar turnos de mis servicios
+
+Escenario 1: La empresa no existe
+Dado que el Administrador está en la ventana de registrar empresa
+    Y que la empresa es nueva
+Cuando el Administrador llene los campos de Nombre de la Empresa 
+    Y el campo de Email general de la Empresa
+    Y el campo de Tipo de Servicios
+    Y seleccione si acepta guest users
+    Y seleccione el criterio de turnos
+    Y seleccione si tiene membresías
+        Y coloque el Nombre de la membresía
+        Y coloque el nivel de preferencia para cada categoría
+    Y agregue todos los servicios que ofrece
+    Y defina el tiempo límite para la cancelación de un turno si el Consumidor de Servicios no está presente
+Entonces la Aplicación debe decir que la Empresa se registró correctamente
+    Y dirigirlo al perfil de la Empresa
+
+Escenario 2: La empresa ya existe
+Dado que el Administrador está en la ventana de registrar empresa
+Cuando el Administrador llene los campos de Nombre de la Empresa 
+    Y el campo de Email general de la Empresa
+    Y el campo de Tipo de Empresa
+    Y agrega todos los servicios que ofrece
+Entonces Dado que el Email ya existe
+Cuando el Administrador solicite el registro de la Empresa
+Entonces la Aplicación debe avisar que ya esa Empresa ya existe
+    Y blanquear los campos de registro
+    Y pedir intentar otra vez
+
+-------------------------------------------------------------------------------
+
+Story: Un Administrador registra una sucursal
+
+Como Administrador
+Deseo registrar una sucursal de mi empresa
+Para que el Consumidor de Servicios elija la sede de su preferencia
+
+Escenario 1: La sucursal no existe
+Dado que el Administrador está en el perfil de la Empresa
+    Y solicitó el registro de una sucursal
+Cuando el Administrador llene los campos de Nombre de sucursal
+    Y el campo de ID
+    Y el campo de Dirección
+    Y el campo de Horario
+    Y seleccione los servicios disponibles en esa sucursal de las opciones que ofrece la empresa
+    Y coloque las estaciones que atenderán cada servicio seleccionado
+    Y seleccione si tiene estaciones para atención preferencial
+        Y coloque el número identificador de las estaciones para preferenciales
+    Y seleccione si tiene puestos para atención por membresía
+        Y coloque el número identificador de las estaciones para cada membresía
+    E indique el tiempo promedio que toma el servicio en completarse
+    Y solicite el registro
+Entonces la Aplicación deberá avisar que el registro fue exitoso
+    Y dirigirlo al perfil de la empresa
+
+Escenario 2: El Administrador no llenó los campos obligatorios
+Dado que el Administrador solicitó registrar una sucursal de sucursal
+    Y no llenó el campo de Nombre de sucursal
+    O el campo de ID
+    O no llenó el campo de Dirección
+    O no llenó el campo de Horario
+    O no seleccionó los servicios disponibles
+    O no indicó las estaciones que atenderán a cada servicio
+    O no indicó el tiempo promedio para la completitud del servicio
+Cuando el Administrador solicite el registro
+Entonces la Aplicación debe indicar que faltaron campos que son obligatorios
+    Y pedir intentar nuevamente
+
+Escenario 3: La sucursal ya existe
+Dado que el Administrador está en el perfil de la Empresa
+    Y solicitó el registro de una sucursal
+Cuando haya completado los campos solicitados
+Entonces Dado que el ID ya está registrado
+Cuando haga la solicitud de registro
+Entonces la Aplicación debe avisar que la sucursal ya está registrada 
+     Y pedir intentar de nuevo
+
+-------------------------------------------------------------------------------------------------------
+
+Story: El Administrador edita una sucursal 
+
+Como Administrador
+Deseo editar la información de una sucursal
+Para precisar sus datos
+
+Escenario 1: El Administrador desea activar un servicio
+Dado que el Administrador está en el perfil de la empresa
+    Y solicitó editar una sucursal específica
+Cuando la Aplicación lo redirija al perfil de la sucursal
+    Y active el nuevo servicio de las opciones que ofrece la empresa
+    Y coloque las estaciones que atenderán ese servicio 
+    Y solicite guardar los cambios
+Entonces La aplicación deberá avisar que los cambios se guardaron exitosamente
+    Y registrar el nuevo servicio
+    Y dirigirlo al perfil de la sucursal
+
+
+Escenario 2: El Administrador desea desactivar un servicio
+Dado que el Administrador está en el perfil de la empresa
+    Y solicitó editar una sucursal específica
+Cuando la Aplicación lo redirija al perfil de la sucursal
+    Y desactive el servicio anteriormente activo 
+    Y solicite guardar los cambios
+Entonces La aplicación deberá avisar que los cambios se guardaron exitosamente
+    Y registrar la desactivación del servicio
+    Y dirigirlo al perfil de la sucursal
+
+
+Escenario 3: El Administrador desea editar los servicios de una estación
+Dado que el Administrador está en el perfil de la empresa
+    Y solicitó editar una sucursal específica
+Cuando la Aplicación lo redirija al perfil de la sucursal
+    Y seleccione la estación que desea editar
+    Y modifique los servicios de esa estación
+    Y solicite guardar los cambios
+Entonces La aplicación deberá avisar que los cambios se guardaron exitosamente
+    Y registrar los cambios de la estación
+    Y dirigirlo al perfil de la sucursal
+
+
+-----------------------------------------------------------------------------------------------------
+
+Story: El Moderador termina un turno
+
+Como Moderador
+Deseo terminar un turno
+Para desocupar una estación 
+
+Escenario 1: El Consumidor de Servicios terminó de ser atendido.
+Dado que el Consumidor de Servicios fue atendido
+    Y la estación que lo atendió está libre
+Cuando el Moderador presione la opción de terminar turno
+Entonces la Aplicación debe quitar el turno de la lista de turnos que está siendo atendida
+    Y tomar el siguiente turno que se encuentra en la fila
+    Y recalcular los tiempos de espera
+    Y mostrar el nuevo turno que está siendo atendido
+
+Escenario 2: El criterio de turnos es por reserva de hora
+Dado que el Consumidor de Servicios fue atendido
+Cuando el Moderador presione la opción de terminar turno
+Entonces la Aplicación debe quitar el turno de la lista de reservas
+    Y esperar la hora de la siguiente reserva para mostrarla en pantalla
+----------------------------------------------------------------------------------------------------
+
+Story: El Moderador otorga un turno a Consumidor de Servicio presencial
+
+Como Moderador
+Deseo otorgar un turno 
+Para que un Consumidor de Servicios presencial disfrute de los servicios de la empresa
+
+Escenario 1: El criterio de turnos es por orden de generación de tickets
+Dado que la empresa eligió usar turnos por orden de generación
+    Y el Consumidor de Servicios pidió un turno para un servicio en específico
+Cuando el Moderador solicite la creación de un turno 
+    Y el servicio exista en esa sucursal
+Entonces la Aplicación debe añadir a la fila el nuevo turno
+    Y avisar que se creó correctamente
+    Y volver a la pantalla principal
+
+Escenario 2: El criterio de turnos es por reserva de hora
+Dado que la empresa eligió usar turnos por reserva de hora
+    Y el Consumidor de Servicios pidió un turno para un servicio en específico
+Cuando el Moderador solicite la creación de un turno 
+    Y el servicio exista en esa sucursal
+Entonces la Aplicación debe buscar la hora más cercana disponible
+    Y colocar el nuevo turno en ese horario
+    Y avisar que se creó correctamente
+    Y volver a la pantalla principal
+
+Escenario 3: El tiempo de espera supera el horario de la sucursal
+Dado que la empresa eligió usar turnos por orden de generación
+    Y el Consumidor de Servicios pidió un turno para un servicio en específico
+Cuando el Moderador solicite la creación de un turno 
+    Y el servicio exista en esa sucursal
+    Y el tiempo de espera supera el horario de trabajo de la sucursal
+Entonces la Aplicación debe avisar que no puede otorgar más turnos
+
+Escenario 4: No hay hora de reserva disponible
+Dado que la empresa eligió usar turnos por reserva de hora
+    Y todos los slots de hora están ocupados
+Cuando el Moderador solicite la creación de un turno
+    Y el servicio exista en la sucursal
+Entonces la Aplicación deve avisar que no hay horarios disponbles 

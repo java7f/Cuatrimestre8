@@ -1,0 +1,3 @@
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/edit_cache.dir

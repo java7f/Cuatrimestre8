@@ -1,0 +1,39 @@
+%option noyywrap
+
+digit [0-9]
+name [a-zA-Z0-9_.-]
+domain [a-zA-Z]
+extension [a-zA-Z]
+port (ftp)|(http)|(https)|(file)
+path [a-zA-Z0-9_.-]
+
+%{
+#include "Tokens.h"
+
+int tokenCount;
+%}
+
+%% 
+
+((((^01){digit}{digit}{digit})|({digit}{digit}))"-"({digit}{digit}{digit}{digit}))    	{tokenCount++; return(STUD_ID);}
+"+"1"-"8(0|2|4)9"-"{digit}{digit}{digit}{digit}{digit}{digit}{digit}     				{tokenCount++; return(PHONE);}
+({name}+"@"{domain}+"."(({extension}+).)*{extension}+)                                	{tokenCount++; return(EMAIL);}
+({port}":""/""/"({path}+(.({path}+))+)?("/"({path}|"-")+)*)	                          	{tokenCount++; return(URL);}
+.*																						{tokenCount++; return(UNKW);}
+%%
+
+void yyerror(int tokenCount)
+{
+	printf("Hubo un error al analizar el lexema %s en la columna %d", yytext, tokenCount);
+	exit(1);
+}
+
+void yytrap() {}
+
+
+({digit}+"."{digit}+(e|E)(+|-)({digit}+))                       {tokenCount++; return(_ECONST);}
+("{"{char}*"}")                                                 {tokenCount++; return(_COMMENT);}
+("""{char}*""")                                                 {tokenCount++; return(_SCONST);}
+
+("""{char}*""")                                                 {tokenCount++; return(_SCONST);}'
+(^{NotAComment}{Comment}{Identifier}{IntegerConst}{RealConst}{NotAString}{Literal}{EnotConst}) {yyerror(tokenCount);}

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Compromiso3/test/Tokens.h
+stdio.h
+-
+
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Compromiso3/test/lex.yy.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+io.h
+-
+stdlib.h
+-
+Tokens.h
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Compromiso3/test/Tokens.h
+stdlib.h
+-
+

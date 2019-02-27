@@ -1,0 +1,8 @@
+﻿Componentes,Descripción
+src/threads/init.c,Inicialización del kernel
+src/lib/kernel/console.c,Maneja la consola del sistema
+src/tests/threads/hellopintos.c,"Contiene la función para imprimir en consola ""Hello, Pintos"""
+src/tests/threads/tests.h,Describe los archivos necesarios para las funciones externas que utiliza tests.h y tests.c
+src/tests/threads/tests.c,Define alias para las funciones externas declaradas en tests.h
+src/tests/threads/thread.c,"Maneja los threads del sistema, incluyendo el inicial."
+src/tests/threads/Make.test,Describe los archivos necesarios para las funciones externas que utiliza tests.h y tests.c
