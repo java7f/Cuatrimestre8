@@ -96,19 +96,40 @@ CMakeFiles\proyecto1.dir\lex.yy.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\proyecto1.dir\lex.yy.c.s /c C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\lex.yy.c
 <<
 
+CMakeFiles\proyecto1.dir\y.tab.c.obj: CMakeFiles\proyecto1.dir\flags.make
+CMakeFiles\proyecto1.dir\y.tab.c.obj: ..\y.tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/proyecto1.dir/y.tab.c.obj"
+	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\proyecto1.dir\y.tab.c.obj /FdCMakeFiles\proyecto1.dir\ /FS -c C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\y.tab.c
+<<
+
+CMakeFiles\proyecto1.dir\y.tab.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proyecto1.dir/y.tab.c.i"
+	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\proyecto1.dir\y.tab.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\y.tab.c
+<<
+
+CMakeFiles\proyecto1.dir\y.tab.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proyecto1.dir/y.tab.c.s"
+	C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\proyecto1.dir\y.tab.c.s /c C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\y.tab.c
+<<
+
 # Object files for target proyecto1
 proyecto1_OBJECTS = \
 "CMakeFiles\proyecto1.dir\MiniPtest.c.obj" \
-"CMakeFiles\proyecto1.dir\lex.yy.c.obj"
+"CMakeFiles\proyecto1.dir\lex.yy.c.obj" \
+"CMakeFiles\proyecto1.dir\y.tab.c.obj"
 
 # External object files for target proyecto1
 proyecto1_EXTERNAL_OBJECTS =
 
 proyecto1.exe: CMakeFiles\proyecto1.dir\MiniPtest.c.obj
 proyecto1.exe: CMakeFiles\proyecto1.dir\lex.yy.c.obj
+proyecto1.exe: CMakeFiles\proyecto1.dir\y.tab.c.obj
 proyecto1.exe: CMakeFiles\proyecto1.dir\build.make
 proyecto1.exe: CMakeFiles\proyecto1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable proyecto1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable proyecto1.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\proyecto1.dir --manifests  -- C:\PROGRA~2\MICROS~4\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\proyecto1.dir\objects1.rsp @<<
  /out:proyecto1.exe /implib:proyecto1.lib /pdb:C:\Users\Javie\Documents\GitHub\Cuatrimestre8\P3\Proyecto1\proyecto1\cmake-build-debug\proyecto1.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

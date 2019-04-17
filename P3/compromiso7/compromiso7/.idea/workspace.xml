@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="955d00a6-1941-497f-8b4d-579eb3dcb66f" name="Default Changelist" comment="" />
+    <list default="true" id="955d00a6-1941-497f-8b4d-579eb3dcb66f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/MiniPFlex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/MiniPFlex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/MiniPtest.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/MiniPtest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/cmake-build-debug/proyecto1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Proyecto1/proyecto1/lex.yy.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Proyecto1/proyecto1/lex.yy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bintree/BinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bintree/BinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tools/Lexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tools/Lexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tools/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tools/Parser.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +50,11 @@
     <session id="-1390879381">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -35,20 +75,16 @@
         <entry file="file://$PROJECT_DIR$/src/tools/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="85" />
-              <folding>
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-              </folding>
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tools/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3723">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            <state relative-caret-position="153">
+              <caret line="135" column="25" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,30 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="595">
-              <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bintree/BinNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="140" column="48" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
-              <folding>
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-              </folding>
+              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -103,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-610" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -115,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +162,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551195920206" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/compromiso7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -213,9 +226,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -224,7 +236,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28032786" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28032786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,7 +247,6 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -245,6 +256,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,51 +273,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bintree/BinNode.java" />
     <entry file="file://$PROJECT_DIR$/src/tools/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="85" />
-          <folding>
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3723">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="40" column="84" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bintree/BinNode.java">
+    <entry file="file://$PROJECT_DIR$/src/tools/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="140" column="48" selection-start-line="140" selection-start-column="48" selection-end-line="140" selection-end-column="48" />
+        <state relative-caret-position="153">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="24" selection-end-line="135" selection-end-column="25" />
           <folding>
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

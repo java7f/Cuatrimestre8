@@ -11,7 +11,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4fc363-0604-4f46-b52d-6eb3468d6028" name="Default Changelist" comment="" />
+    <list default="true" id="1c4fc363-0604-4f46-b52d-6eb3468d6028" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesMovil.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/REQStoriesWEB.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lenguajes de programacion/Grupos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiniPFlex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MiniPFlex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiniPtest.c" beforeDir="false" afterPath="$PROJECT_DIR$/MiniPtest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proyecto1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proyecto1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proyecto1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proyecto1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proyecto1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proyecto1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/proyecto1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/proyecto1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lex.yy.c" beforeDir="false" afterPath="$PROJECT_DIR$/lex.yy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compromiso7/compromiso7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../compromiso7/compromiso7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/bintree/BinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/bintree/BinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/tools/Lexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/tools/Lexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/tools/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../compromiso7/compromiso7/bin/tools/Parser.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,21 +64,16 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MiniPtest.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="85">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,11 +87,61 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/y.tab.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+              <folding>
+                <element signature="e#2505#2523#0" expanded="true" />
+                <element signature="e#2779#2829#0" expanded="true" />
+                <element signature="e#5042#5055#0" expanded="true" />
+                <element signature="e#5084#5118#0" expanded="true" />
+                <element signature="e#5188#5220#0" expanded="true" />
+                <element signature="e#5360#5390#0" expanded="true" />
+                <element signature="e#5420#5456#0" expanded="true" />
+                <element signature="e#5533#5567#0" expanded="true" />
+                <element signature="e#5653#5685#0" expanded="true" />
+                <element signature="e#5708#5733#0" expanded="true" />
+                <element signature="e#5947#5978#0" expanded="true" />
+                <element signature="e#6065#6205#0" expanded="true" />
+                <element signature="e#6401#6430#0" expanded="true" />
+                <element signature="e#6558#6747#0" expanded="true" />
+                <element signature="e#6903#7597#0" expanded="true" />
+                <element signature="e#7632#8148#0" expanded="true" />
+                <element signature="e#8456#8568#0" expanded="true" />
+                <element signature="e#9899#9997#0" expanded="true" />
+                <element signature="e#17240#17716#0" expanded="true" />
+                <element signature="e#26782#26954#0" expanded="true" />
+                <element signature="e#27107#27141#0" expanded="true" />
+                <element signature="e#28081#28215#0" expanded="true" />
+                <element signature="e#28272#28348#0" expanded="true" />
+                <element signature="e#28743#28871#0" expanded="true" />
+                <element signature="e#29573#29670#0" expanded="true" />
+                <element signature="e#30328#30407#0" expanded="true" />
+                <element signature="e#31144#31291#0" expanded="true" />
+                <element signature="e#31809#37246#0" expanded="true" />
+                <element signature="e#37624#37734#0" expanded="true" />
+                <element signature="e#37991#38098#0" expanded="true" />
+                <element signature="e#38171#38190#0" expanded="true" />
+                <element signature="e#38526#38723#0" expanded="true" />
+                <element signature="e#38875#38889#0" expanded="true" />
+                <element signature="e#39739#39886#0" expanded="true" />
+                <element signature="e#41134#41735#0" expanded="true" />
+                <element signature="e#41794#41814#0" expanded="true" />
+                <element signature="e#52948#53694#0" expanded="true" />
+                <element signature="e#56781#56829#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>comment</find>
+      <find>YYDEB</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,15 +152,18 @@
       <list>
         <option value="$PROJECT_DIR$/Tokens.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" />
+        <option value="$PROJECT_DIR$/y.tab.c" />
         <option value="$PROJECT_DIR$/MiniPtest.c" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Salida_Prueba2_Negativo.txt" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/Salida_Prueba3_Positiva.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="91" />
-    <option name="width" value="1026" />
-    <option name="height" value="546" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,11 +183,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/project3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -123,7 +210,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="proyecto1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="proyecto1" TARGET_NAME="proyecto1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="proyecto1" RUN_TARGET_NAME="proyecto1">
+    <configuration name="proyecto1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-DYYDEBUG" PASS_PARENT_ENVS_2="true" PROJECT_NAME="proyecto1" TARGET_NAME="proyecto1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="proyecto1" RUN_TARGET_NAME="proyecto1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -146,28 +233,42 @@
       <workItem from="1548960844588" duration="12617000" />
       <workItem from="1549041061165" duration="4666000" />
       <workItem from="1549396547753" duration="2183000" />
+      <workItem from="1551764753782" duration="24872000" />
+      <workItem from="1552641222646" duration="184000" />
+      <workItem from="1552826932927" duration="92000" />
+      <workItem from="1552832000016" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19466000" />
+    <option name="totallyTimeSpent" value="45114000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14750378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7643208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28150573" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34860885" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.45662847" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -182,17 +283,60 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/../MiniPFlex.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lex.yy.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="838" column="1" selection-start-line="838" selection-start-column="1" selection-end-line="838" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/ucrt/corecrt_malloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/ucrt/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2458" selection-start-line="2458" selection-end-line="2458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MiniPFlex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="65" column="8" lean-forward="true" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Salida_Prueba1_Positivo.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Salida_Prueba2_Negativo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Salida_Prueba3_Positiva.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -203,20 +347,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/y.tab.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="1411">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="e#2505#2523#0" expanded="true" />
+            <element signature="e#2779#2829#0" expanded="true" />
+            <element signature="e#5042#5055#0" expanded="true" />
+            <element signature="e#5084#5118#0" expanded="true" />
+            <element signature="e#5188#5220#0" expanded="true" />
+            <element signature="e#5360#5390#0" expanded="true" />
+            <element signature="e#5420#5456#0" expanded="true" />
+            <element signature="e#5533#5567#0" expanded="true" />
+            <element signature="e#5653#5685#0" expanded="true" />
+            <element signature="e#5708#5733#0" expanded="true" />
+            <element signature="e#5947#5978#0" expanded="true" />
+            <element signature="e#6065#6205#0" expanded="true" />
+            <element signature="e#6401#6430#0" expanded="true" />
+            <element signature="e#6558#6747#0" expanded="true" />
+            <element signature="e#6903#7597#0" expanded="true" />
+            <element signature="e#7632#8148#0" expanded="true" />
+            <element signature="e#8456#8568#0" expanded="true" />
+            <element signature="e#9899#9997#0" expanded="true" />
+            <element signature="e#17240#17716#0" expanded="true" />
+            <element signature="e#26782#26954#0" expanded="true" />
+            <element signature="e#27107#27141#0" expanded="true" />
+            <element signature="e#28081#28215#0" expanded="true" />
+            <element signature="e#28272#28348#0" expanded="true" />
+            <element signature="e#28743#28871#0" expanded="true" />
+            <element signature="e#29573#29670#0" expanded="true" />
+            <element signature="e#30328#30407#0" expanded="true" />
+            <element signature="e#31144#31291#0" expanded="true" />
+            <element signature="e#31809#37246#0" expanded="true" />
+            <element signature="e#37624#37734#0" expanded="true" />
+            <element signature="e#37991#38098#0" expanded="true" />
+            <element signature="e#38171#38190#0" expanded="true" />
+            <element signature="e#38526#38723#0" expanded="true" />
+            <element signature="e#38875#38889#0" expanded="true" />
+            <element signature="e#39739#39886#0" expanded="true" />
+            <element signature="e#41134#41735#0" expanded="true" />
+            <element signature="e#41794#41814#0" expanded="true" />
+            <element signature="e#52948#53694#0" expanded="true" />
+            <element signature="e#56781#56829#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MiniPtest.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>

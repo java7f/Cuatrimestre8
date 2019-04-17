@@ -1,0 +1,350 @@
+Regla: title → _PROGRAM _ID
+
+
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → vardef
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → varlist _SEMI vardef
+
+Regla: nlist → _ICONST
+Regla: bnl → _LBRACK nlist _RBRACK
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → varlist _SEMI vardef
+
+Regla: nlist → _ICONST
+Regla: nlist → nlist _COMMA _ICONST
+Regla: bnl → _LBRACK nlist _RBRACK
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+
+
+Regla: ptitle → _PROC _ID _LPAREN  _RPAREN
+
+
+Regla: vars → _NOVARS
+
+
+
+Regla: procs → _NOPROCS
+
+
+
+
+Regla: code → _SEMI
+Regla: stmt → code
+Regla: para → stmt
+
+Regla: code → _BEGIN para _END
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → procdef
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN
+
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+Regla: procs → _NOPROCS
+
+
+
+
+Regla: ids → _ID
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: output → _WRITE _LPAREN _LITERAL _RPAREN
+Regla: stmt → output
+Regla: loop → _FOR assign _TO expr _DO stmt
+Regla: stmt → loop
+Regla: para → stmt
+
+
+Regla: output → _WRITE _LPAREN _LITERAL _RPAREN
+Regla: stmt → output
+Regla: para → para _SEMI stmt
+
+
+Regla: code → _BEGIN para _END
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → proclist _SEMI procdef
+
+
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → vardef
+Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN
+
+
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+Regla: procs → _NOPROCS
+
+
+
+
+Regla: ids → _ID
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: para → stmt
+
+Regla: it → _ID
+Regla: vallist → it
+Regla: ids →  _ID _LBRACK vallist _RBRACK
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: para → para _SEMI stmt
+
+Regla: ids → _ID
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → expr _PLUS term
+Regla: fac → _LPAREN expr _RPAREN
+Regla: term → term _DIVIDE fac
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → term _MULT fac
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: para → para _SEMI stmt
+
+Regla: ids → _ID
+Regla: it → _ID
+Regla: vallist → it
+Regla: it → _ID
+Regla: vallist → vallist _COMMA it
+Regla: ids →  _ID _LBRACK vallist _RBRACK
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: para → para _SEMI stmt
+Regla: code → _BEGIN para _END
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → proclist _SEMI procdef
+
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → vardef
+Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN
+
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+Regla: procs → _NOPROCS
+
+
+
+
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: bop → _EQL
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: output → _WRITE _LPAREN _LITERAL _RPAREN
+Regla: stmt → output
+
+
+Regla: input → _READ _LPAREN _ID _RPAREN
+Regla: stmt → input
+Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt
+Regla: stmt → cond
+Regla: para → stmt
+
+
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: bop → _EQL
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: output → _WRITE _LPAREN _LITERAL _RPAREN
+Regla: stmt → output
+
+
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: bop → _GTR
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: input → _READ _LPAREN _ID _RPAREN
+Regla: stmt → input
+
+
+Regla: input → _READ _LPAREN _ID _RPAREN
+Regla: stmt → input
+Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt
+Regla: stmt → cond
+Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt
+Regla: stmt → cond
+Regla: para → para _SEMI stmt
+
+
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: bop → _NEQ
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: output → _WRITE _LPAREN _LITERAL _RPAREN
+Regla: stmt → output
+
+
+Regla: output → _WRITE _LPAREN _ID _RPAREN
+Regla: stmt → output
+Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt
+Regla: stmt → cond
+Regla: para → para _SEMI stmt
+
+
+Regla: ids → _ID
+Regla: val → ids
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: bop → _EQL
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+
+Regla: ids → _ID
+Regla: val → _RCONST
+Regla: fac → val
+Regla: term → fac
+
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+
+Regla: ids → _ID
+Regla: val → _RCONST
+Regla: fac → val
+Regla: term → fac
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt
+Regla: stmt → cond
+Regla: para → para _SEMI stmt
+
+
+Regla: ids → _ID
+Regla: val → _ICONST
+Regla: fac → val
+Regla: term → fac
+Regla: it → _ICONST
+Regla: vallist → it
+Regla: it → _ICONST
+Regla: vallist → vallist _COMMA it
+Regla: val → _ID _LPAREN vallist _RPAREN
+Regla: fac → val
+Regla: term → term _MULT fac
+
+
+
+Regla: expr → term
+Regla: assign → ids _ASSIGN expr
+Regla: stmt → assign
+Regla: para → para _SEMI stmt
+Regla: code → _BEGIN para _END
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → proclist _SEMI procdef
+
+
+
+Regla: procs → _PROCS proclist
+Regla: code → _SEMI
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: program → title _SEMI block
+
+
+Programa aceptado

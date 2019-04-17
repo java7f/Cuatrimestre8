@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98636f51-aa08-4105-a754-509d18b08876" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/DecompositionView.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/Etapa1REQ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/Etapa2REQ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/QA.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/REQStoriesMovil.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/REQStoriesMovil.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/REQStoriesWEB.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/REQStoriesWEB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/TSPi.Beta.990907.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/week1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/week2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/week2Javier.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ingeniería de Software/Project Notebook/week3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lenguajes de programacion/Grupos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/MiniPFlex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/MiniPFlex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/MiniPtest.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/MiniPtest.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/Caso_De_Prueba_Programa_de_MiniP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/cmake-build-debug/proyecto1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/lex.yy.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/Proyecto1/proyecto1/lex.yy.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/app/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/bintree/BinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/bintree/BinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/tools/Lexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/tools/Lexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/tools/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../P3/compromiso7/compromiso7/bin/tools/Parser.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-344685632">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="124" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SQLTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.376/Main.java" />
+        <option value="$PROJECT_DIR$/src/SQLTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-610" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="parte2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parte2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554749113427" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SQLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SQLTest" />
+      <module name="parte2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SQLTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98636f51-aa08-4105-a754-509d18b08876" name="Default Changelist" comment="" />
+      <created>1554742626822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554742626822</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.376/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="112" selection-start-line="25" selection-start-column="54" selection-end-line="26" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SQLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

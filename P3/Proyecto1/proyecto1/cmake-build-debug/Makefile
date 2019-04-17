@@ -178,6 +178,33 @@ lex.yy.c.s:
 	$(MAKE) -f CMakeFiles\proyecto1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto1.dir\lex.yy.c.s
 .PHONY : lex.yy.c.s
 
+y.tab.obj: y.tab.c.obj
+
+.PHONY : y.tab.obj
+
+# target to build an object file
+y.tab.c.obj:
+	$(MAKE) -f CMakeFiles\proyecto1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto1.dir\y.tab.c.obj
+.PHONY : y.tab.c.obj
+
+y.tab.i: y.tab.c.i
+
+.PHONY : y.tab.i
+
+# target to preprocess a source file
+y.tab.c.i:
+	$(MAKE) -f CMakeFiles\proyecto1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto1.dir\y.tab.c.i
+.PHONY : y.tab.c.i
+
+y.tab.s: y.tab.c.s
+
+.PHONY : y.tab.s
+
+# target to generate assembly for a file
+y.tab.c.s:
+	$(MAKE) -f CMakeFiles\proyecto1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\proyecto1.dir\y.tab.c.s
+.PHONY : y.tab.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,6 +220,9 @@ help:
 	@echo ... lex.yy.obj
 	@echo ... lex.yy.i
 	@echo ... lex.yy.s
+	@echo ... y.tab.obj
+	@echo ... y.tab.i
+	@echo ... y.tab.s
 .PHONY : help
 
 

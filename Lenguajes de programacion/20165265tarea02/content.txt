@@ -1,0 +1,5 @@
+ejerc1.pdf: Archivo que responde a lo solicitado en el Ejercicio 1.
+ejerc2.md: Archivo que describe la representación concebida para el XML.
+ejerc2.xml: Archivo XML que describe los contenidos existentes en la tabla de evaluaciones del curso
+XMLtest.java: Código fuente de la aplicación en Java para buscar evaluaciones dado su número, utilizando el archivo ejerc2.xml.
+ejerc3.pdf: Archivo que responde a lo solicitado en el Ejercicio 3.

@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/MiniPtest.c
-Tokens.h
 C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/Tokens.h
 stdio.h
 -
 
-C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/Tokens.h
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/lex.yy.c
 stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+io.h
+-
+stdlib.h
+-
+Tokens.h
+C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/Tokens.h
+stdlib.h
 -
 

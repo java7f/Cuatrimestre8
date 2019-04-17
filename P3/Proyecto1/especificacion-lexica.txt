@@ -1,0 +1,85 @@
+%option noyywrap
+
+D [0-9]
+A [a-zA-Z]
+
+%{
+#include "Attributes.hpp"
+#include "Tokens.hpp"
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+extern Attributes yylval;
+int tokenCount;
+Attributes input;
+Attributes constant;
+string tempLine = "";
+
+%}
+
+%option yylineno
+
+%%
+
+(P|p)(R|r)(O|o)(G|g)(R|r)(A|a)(M|m)	                                {tokenCount++; tempLine += std::string(yytext); return (_PROGRAM);}
+(E|e)(N|n)(D|d)(V|v)(A|a)(R|r)(S|s)	                                {tokenCount++; tempLine += std::string(yytext); return (_ENDVARS);}
+(E|e)(N|n)(D|d)(P|p)(R|r)(O|o)(C|c)(S|s)	                        {tokenCount++; tempLine += std::string(yytext); return (_ENDPROCS);}
+(N|n)(O|o)(V|v)(A|a)(R|r)(I|i)(A|a)(B|b)(L|l)(E|e)(S|s)             {tokenCount++; tempLine += std::string(yytext); return (_NOVARS);}
+(V|v)(A|a)(R|r)(I|i)(A|a)(B|b)(L|l)(E|e)(S|s)                       {tokenCount++; tempLine += std::string(yytext); return (_VARS);}
+(I|i)(N|n)(T|t)(E|e)(G|g)(E|e)(R|r)	                                {tokenCount++; tempLine += std::string(yytext); return (_INTEGER);}
+(R|r)(E|e)(A|a)(L|l)                                                {tokenCount++; tempLine += std::string(yytext); return (_REAL);}
+(S|s)(T|t)(R|r)(I|i)(N|n)(G|g)	                                    {tokenCount++; tempLine += std::string(yytext); return (_STRING);}
+(N|n)(O|o)(P|p)(R|r)(O|o)(C|c)(E|e)(D|d)(U|u)(R|r)(E|e)(S|s)        {tokenCount++; tempLine += std::string(yytext); return (_NOPROCS);}
+(P|p)(R|r)(O|o)(C|c)(E|e)(D|d)(U|u)(R|r)(E|e)(S|s)		            {tokenCount++; tempLine += std::string(yytext); return (_PROCS);}
+(P|p)(R|r)(O|o)(C|c)(E|e)(D|d)(U|u)(R|r)(E|e)                       {tokenCount++; tempLine += std::string(yytext); return (_PROC);}
+(B|b)(E|e)(G|g)(I|i)(N|n)                                           {tokenCount++; tempLine += std::string(yytext); return (_BEGIN);}
+(E|e)(N|n)(D|d)	                                                    {tokenCount++; tempLine += std::string(yytext); return (_END);}
+(F|f)(O|o)(R|r)	                                                    {tokenCount++; tempLine += std::string(yytext); return (_FOR);}
+(T|t)(O|o)	                                                        {tokenCount++; tempLine += std::string(yytext); return (_TO);}
+(D|d)(O|o)	                                                        {tokenCount++; tempLine += std::string(yytext); return (_DO);}
+(I|i)(F|f)	                                                        {tokenCount++; tempLine += std::string(yytext); return (_IF);}
+(T|t)(H|h)(E|e)(N|n)                                                {tokenCount++; tempLine += std::string(yytext); return (_THEN);}
+(E|e)(L|l)(S|s)(E|e)                                                {tokenCount++; tempLine += std::string(yytext); return (_ELSE);}
+(R|r)(E|e)(A|a)(D|d)	                                            {tokenCount++; tempLine += std::string(yytext); return (_READ);}
+(W|w)(R|r)(I|i)(T|t)(E|e)	                                        {tokenCount++; tempLine += std::string(yytext); return (_WRITE);}
+(W|w)(I|i)(L|e)(E|e)                                                {tokenCount++; tempLine += std::string(yytext); return (_WHILE);}
+(U|u)(N|n)(T|t)(I|i)(L|l)                                           {tokenCount++; tempLine += std::string(yytext); return (_UNTIL);}
+({A}|"_")({A}|"_"|{D})*                                             {tokenCount++; input.lexeme = strdup(yytext); tempLine += std::string(yytext); return (_ID);}
+"-"?{D}+                                                            {tokenCount++; constant.lexeme = strdup(yytext); tempLine += std::string(yytext); return (_ICONST);}
+"-"?{D}+("."({D})+)?                                                {tokenCount++; constant.lexeme = strdup(yytext); tempLine += std::string(yytext); return (_RCONST);}
+"-"?{D}+"."{D}+("e"|"E")("+"|"-")?([1-9])+                          {tokenCount++; constant.lexeme = strdup(yytext); tempLine += std::string(yytext); return (_ECONST);}
+["][^"]*                                                            {cout << "Error de constante de cadena ilimitada"; exit(1);}
+(({D}+("."({D})+)?)|(["][^"]*["]))                                  {tokenCount++; constant.lexeme = strdup(yytext); tempLine += std::string(yytext); return (_LITERAL);}
+"["                                                                 {tokenCount++; tempLine += std::string(yytext); return (_LBRACK);}
+"]"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_RBRACK);}
+"("                                                                 {tokenCount++; tempLine += std::string(yytext); return (_LPAREN);}
+")"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_RPAREN);}
+":="                                                                {tokenCount++; tempLine += std::string(yytext); return (_ASSIGN);}
+";"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_SEMI);}
+":"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_COLON);}
+","                                                                 {tokenCount++; tempLine += std::string(yytext); return (_COMMA);}
+"+"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_PLUS);}
+"-"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_MINUS);}
+"*"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_MULT);}
+"/"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_DIVIDE);}
+"<>"                                                                {tokenCount++; tempLine += std::string(yytext); return (_NEQ);}
+">="                                                                {tokenCount++; tempLine += std::string(yytext); return (_GEQ);}
+">"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_GTR);}
+"<="                                                                {tokenCount++; tempLine += std::string(yytext); return (_LEQ);}
+"<"                                                                 {tokenCount++; tempLine += std::string(yytext); return (_LESS);}
+"="                                                                 {tokenCount++; tempLine += std::string(yytext); return (_EQL);}
+"{"[^}]*                                                            {printf("Error de comentario ilimitado"); exit(1);}
+"{"[^}]*"}"                                                         {}
+(" "|"\t")                                                          {}
+("\n")             													{tempLine = "";}
+.                                                                   {printf("Hubo un error en el token %s en la col %d", yytext, tokenCount); exit(1);}
+%%
+
+int yyerror(const char *s)
+{
+    printf("%s",s);
+}
+
+void yytrap() {}

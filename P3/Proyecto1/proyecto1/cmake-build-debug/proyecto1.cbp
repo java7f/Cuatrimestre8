@@ -91,6 +91,9 @@
 		<Unit filename="C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/lex.yy.c">
 			<Option target="proyecto1"/>
 		</Unit>
+		<Unit filename="C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/y.tab.c">
+			<Option target="proyecto1"/>
+		</Unit>
 		<Unit filename="C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -1,0 +1,67 @@
+Regla: title → _PROGRAM _ID
+
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN
+
+
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → vardef
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → vardef
+Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN
+
+
+
+Regla: vardef → _ID _COLON _STRING
+Regla: varlist → vardef
+
+Regla: vardef → _ID _COLON _REAL
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vardef → _ID _COLON _INTEGER
+Regla: varlist → varlist _SEMI vardef
+
+Regla: vars → _VARS varlist _SEMI
+
+
+Regla: procs → _NOPROCS
+
+Regla: code → _SEMI
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → procdef
+
+
+Regla: procs → _PROCS proclist
+
+Syntax Error

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/MiniPtest.c" "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/MiniPtest.c.obj"
   "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/lex.yy.c" "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/lex.yy.c.obj"
+  "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/y.tab.c" "C:/Users/Javie/Documents/GitHub/Cuatrimestre8/P3/Proyecto1/proyecto1/cmake-build-debug/CMakeFiles/proyecto1.dir/y.tab.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

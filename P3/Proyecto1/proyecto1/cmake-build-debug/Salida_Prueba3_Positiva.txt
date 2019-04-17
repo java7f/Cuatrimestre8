@@ -1,0 +1,36 @@
+Regla: title → _PROGRAM _ID
+
+
+Regla: vars → _NOVARS
+
+
+
+
+
+Regla: ptitle → _PROC _ID _LPAREN  _RPAREN
+
+
+Regla: vars → _NOVARS
+
+
+
+Regla: procs → _NOPROCS
+
+
+
+
+Regla: code → _SEMI
+Regla: stmt → code
+Regla: para → stmt
+
+Regla: code → _BEGIN para _END
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: procdef → ptitle _SEMI block
+Regla: proclist → procdef
+
+
+Regla: procs → _PROCS proclist
+Regla: code → _SEMI
+Regla: block → vars _ENDVARS procs _ENDPROCS code
+Regla: program → title _SEMI block
+Programa aceptado

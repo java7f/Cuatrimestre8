@@ -1,11 +1,11 @@
 %option noyywrap
 
 digit [0-9]
-id [a-zA-z_]
+id [a-zA-Z] 
 
 NotAComment ("{"[^}]*)
 Comment ("{"[^}]*"}")
-Identifier (({id})({id}|{digit})*)
+Identifier ({id}|"_")({id}|"_"|{digit})*
 IntegerConst (({digit})({digit})*)
 RealConst ({digit}*("."{digit}*)?)
 NotAString (["][^"]*)
@@ -14,7 +14,7 @@ EnotConst (("-"?{digit}+)"."({digit}+)(e|E)("-")?({digit}+))
 
 %{
 #include "Tokens.h"
-
+int yyerror(char* );
 int tokenCount;
 %}
 
@@ -41,12 +41,12 @@ int tokenCount;
 (E|e)(L|l)(S|s)(E|e)	                                        {tokenCount++; return(_ELSE);}
 (R|r)(E|e)(A|a)(D|d)	                                        {tokenCount++; return(_READ);}
 (W|w)(R|r)(I|i)(T|t)(E|e)	                                    {tokenCount++; return(_WRITE);}
-{NotAComment}                                                   {yyerror(tokenCount);}
-{Comment}                                                       {tokenCount++; return(_COMMENT);}
+{NotAComment}                                                   {yyerror("Error de comentario\n");}
+{Comment}                                                       {}
 {Identifier}                                                    {tokenCount++; return(_ID);}
 {IntegerConst}                                                  {tokenCount++; return(_ICONST);}
 {RealConst}                                                     {tokenCount++; return(_RCONST);}
-{NotAString}                                                    {yyerror(tokenCount);}
+{NotAString}                                                    {yyerror("Error de constante de cadena\n");}
 {Literal}                                                       {tokenCount++; return(_LITERAL);}
 {EnotConst}                                                     {tokenCount++; return(_ECONST);}
 "["                                                             {tokenCount++; return(_LBRACK);}
@@ -68,11 +68,11 @@ int tokenCount;
 ">"                                                             {tokenCount++; return(_GTR);}
 "<"">"                                                          {tokenCount++; return(_NEQ);}
 " "|"\t"	                                                    {}
-.	                                                            {yyerror(tokenCount);}
+.	                                                            {yyerror("El lexema no pertenece al lenguaje\n");}
 %%
 
-int yyerror(int tokenCount)
+int yyerror(char * errormsg)
 {
-	printf("Hubo un error al analizar el lexema %s, número %d", yytext, tokenCount);
+	fprintf(stderr, "%s\n", errormsg);
 	exit(1);
 }

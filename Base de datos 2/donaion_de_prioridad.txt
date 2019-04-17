@@ -1,0 +1,15 @@
+
+-Thread B tiene el lock pero thread A, que tiene la prioridad esta lista
+asi que dona su prioridad a B y cuando B termina suelta el lock y le
+devuelve su prioridad a A.
+
+									Tiene Lock
+		+-----------+	Dona su		+-----------+			
+		|			|	Prioridad	|			|
+	+-->| Thread A	|------------->	| Thread B	|---+
+	|	|			|				|			|	|
+	|	+-----------+				+-----------+	| Thread B Termina,
+	|	Tiene Prioridad 							| suelta el lock y
+	|	y Quiere Lock 								| le devuelve su
+	| 												| prioridad a A.
+	+-----------------------------------------------+

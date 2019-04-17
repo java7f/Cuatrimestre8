@@ -1,0 +1,202 @@
+
+%{
+    #include <stdio.h>
+    #include <stdlib.h>
+    int yylex (void);
+    int yyerror(char const *);
+%}
+
+%right _ASSIGN 17
+%left _LESS 41
+%left _GTR 42
+%left _LEQ 43
+%left _GEQ 44
+%left  _EQL 40
+%left _NEQ 45
+%left _PLUS 20
+%left _MINUS 21
+%left _MULT 22 
+%left _DIVIDE 23
+
+%token _ID 1
+%token _ICONST 2 
+%token _RCONST 3
+%token _ECONST 4
+%token _LITERAL 5
+%token _LBRACK 10
+%token _RBRACK 11
+%token _LPAREN 12
+%token _RPAREN 13
+%token _SEMI 14
+%token _COLON 15
+%token _COMMA 16
+%token _PROGRAM 51
+%token _ENDVARS 52
+%token _ENDPROCS 53
+%token _VARS 54
+%token _NOVARS 55
+%token _INTEGER 56
+%token _REAL 57
+%token _STRING 58
+%token _PROCS 59
+%token _NOPROCS 60
+%token _PROC 61
+%token _BEGIN 62
+%token _END 63
+%token _FOR 64
+%token _TO 65
+%token _DO 66
+%token _IF 67
+%token _THEN 68
+%token _ELSE 69
+%token _READ 70
+%token _WRITE 71
+
+%%
+
+    program: 
+        title _SEMI block   { printf ("Regla: program → title _SEMI block\n"); }
+    ;
+
+    title: 
+        _PROGRAM _ID    { printf ("Regla: title → _PROGRAM _ID\n"); }
+    ;
+
+    block:
+        vars _ENDVARS procs _ENDPROCS code      { printf ("Regla: block → vars _ENDVARS procs _ENDPROCS code\n"); }
+    ;
+
+    vars: 
+        _VARS varlist _SEMI     { printf ("Regla: vars → _VARS varlist _SEMI\n"); }
+        |   _NOVARS     { printf ("Regla: vars → _NOVARS\n"); }
+    ;
+
+    varlist: 
+        varlist _SEMI vardef    { printf ("Regla: varlist → varlist _SEMI vardef\n"); }
+        |   vardef      { printf ("Regla: varlist → vardef\n"); }
+    ;
+
+    vardef: 
+        _ID _COLON _INTEGER     { printf ("Regla: vardef → _ID _COLON _INTEGER\n"); }
+        |   _ID _COLON _REAL    { printf ("Regla: vardef → _ID _COLON _REAL\n"); }
+        |   _ID _COLON _INTEGER bnl     { printf ("Regla: vardef → _ID _COLON _INTEGER\n"); }
+        |   _ID _COLON _STRING  { printf ("Regla: vardef → _ID _COLON _STRING\n"); }
+    ;
+
+    bnl: 
+        _LBRACK nlist _RBRACK   { printf ("Regla: bnl → _LBRACK nlist _RBRACK\n"); }
+    ;
+
+    nlist:
+        nlist _COMMA _ICONST    { printf ("Regla: nlist → nlist _COMMA _ICONST\n"); }
+        |   _ICONST { printf ("Regla: nlist → _ICONST\n"); }
+    ;
+
+    procs: 
+        _PROCS proclist     { printf ("Regla: procs → _PROCS proclist\n"); }
+        |   _NOPROCS    { printf ("Regla: procs → _NOPROCS\n"); }
+    ;
+
+    proclist: 
+        proclist _SEMI procdef      { printf ("Regla: proclist → proclist _SEMI procdef\n"); }
+        |   procdef     { printf ("Regla: proclist → procdef\n"); }
+    ;
+
+    procdef: 
+        ptitle _SEMI block      { printf ("Regla: procdef → ptitle _SEMI block\n"); }
+    ;
+
+    ptitle:
+        _PROC _ID _LPAREN varlist _RPAREN   { printf ("Regla: ptitle → _PROC _ID _LPAREN varlist _RPAREN\n"); }
+        |   _PROC _ID _LPAREN  _RPAREN      { printf ("Regla: ptitle → _PROC _ID _LPAREN  _RPAREN\n"); }
+    ;
+
+    code: 
+        _BEGIN para _END    { printf ("Regla: code → _BEGIN para _END\n"); }
+        | _SEMI     { printf ("Regla: code → _SEMI\n"); }
+    ;
+
+    para:
+        para _SEMI stmt     { printf ("Regla: para → para _SEMI stmt\n"); }
+        |   stmt    { printf ("Regla: para → stmt\n"); }
+    ;
+
+    stmt:
+        assign      { printf ("Regla: stmt → assign\n"); }
+        |   cond    { printf ("Regla: stmt → cond\n"); }
+        |   loop    { printf ("Regla: stmt → loop\n"); }
+        |   input   { printf ("Regla: stmt → input\n"); }
+        |   output  { printf ("Regla: stmt → output\n"); }
+        |   code    { printf ("Regla: stmt → code\n"); }
+    ;
+
+    assign: 
+        ids _ASSIGN expr    { printf ("Regla: assign → ids _ASSIGN expr\n"); }
+    ;
+
+    expr:
+        expr _PLUS term     { printf ("Regla: expr → expr _PLUS term\n"); }
+        |   expr _MINUS term    { printf ("Regla: expr → expr _MINUS term\n"); }
+        |   term    { printf ("Regla: expr → term\n"); }
+    ;
+
+    term:
+        term _MULT fac      { printf ("Regla: term → term _MULT fac\n"); }
+        |   term _DIVIDE fac    { printf ("Regla: term → term _DIVIDE fac\n"); }
+        |   fac     { printf ("Regla: term → fac\n"); }
+    ;
+
+    fac: 
+        val     { printf ("Regla: fac → val\n"); }
+        |   _LPAREN expr _RPAREN    { printf ("Regla: fac → _LPAREN expr _RPAREN\n"); }
+    ;
+
+    val:
+        ids     { printf ("Regla: val → ids\n"); }
+        |   _ID _LPAREN vallist _RPAREN     { printf ("Regla: val → _ID _LPAREN vallist _RPAREN\n"); }
+        |   _ICONST     { printf ("Regla: val → _ICONST\n"); }
+        |   _RCONST     { printf ("Regla: val → _RCONST\n"); }
+    ;
+
+    ids:
+        _ID     { printf ("Regla: ids → _ID\n"); }
+        |   _ID _LBRACK vallist _RBRACK     { printf ("Regla: ids →  _ID _LBRACK vallist _RBRACK\n"); }
+    ;
+
+    vallist:
+        vallist _COMMA it       { printf ("Regla: vallist → vallist _COMMA it\n"); }
+        |   it      { printf ("Regla: vallist → it\n"); }
+    ;
+
+    it:   
+        _ID     { printf ("Regla: it → _ID\n"); }
+        |   _ICONST     { printf ("Regla: it → _ICONST\n"); }
+    ;
+
+    cond:
+        _IF expr bop expr _THEN stmt _ELSE stmt     { printf ("Regla: cond → _IF expr bop expr _THEN stmt _ELSE stmt\n"); }
+    ;
+
+    bop:   
+        _EQL    { printf ("Regla: bop → _EQL\n"); }
+        |   _LESS   { printf ("Regla: bop → _LESS\n"); }
+        |   _GTR    { printf ("Regla: bop → _GTR\n"); }
+        |   _LEQ    { printf ("Regla: bop → _LEQ\n"); }
+        |   _GEQ    { printf ("Regla: bop → _GEQ\n"); }
+        |   _NEQ    { printf ("Regla: bop → _NEQ\n"); }
+    ;
+
+    loop:  
+        _FOR assign _TO expr _DO stmt   { printf ("Regla: loop → _FOR assign _TO expr _DO stmt\n"); }
+    ;
+
+    input: 
+        _READ _LPAREN _ID _RPAREN   { printf ("Regla: input → _READ _LPAREN _ID _RPAREN\n"); }
+    ;
+
+    output:
+        _WRITE _LPAREN _ID _RPAREN      { printf ("Regla: output → _WRITE _LPAREN _ID _RPAREN\n"); }
+        |   _WRITE _LPAREN _LITERAL _RPAREN     { printf ("Regla: output → _WRITE _LPAREN _LITERAL _RPAREN\n"); }
+    ;
+
+%% 

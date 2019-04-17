@@ -1,0 +1,20 @@
+Program Test_3; 
+
+Novariables
+endVars
+
+Procedures
+
+Procedure FooDummyProc();
+	
+	NoVariables
+	EndVars
+	
+	NoProcedures
+	EndProcs
+	
+	Begin
+	;
+	End
+
+EndProcs;

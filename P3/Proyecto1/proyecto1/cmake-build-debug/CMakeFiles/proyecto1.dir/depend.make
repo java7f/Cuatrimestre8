@@ -7,3 +7,5 @@ CMakeFiles\proyecto1.dir\MiniPtest.c.obj: ..\Tokens.h
 CMakeFiles\proyecto1.dir\lex.yy.c.obj: ..\Tokens.h
 CMakeFiles\proyecto1.dir\lex.yy.c.obj: ..\lex.yy.c
 
+CMakeFiles\proyecto1.dir\y.tab.c.obj: ..\y.tab.c
+

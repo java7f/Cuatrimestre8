@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<evaluations>
+	<eval 
+	id= "1"
+	title = "Parcial I (temas 1 - 4)"
+	value = "15">
+		<week>6</week>
+    	<date>15/febrero/2019</date>
+	</eval>
+
+	<eval 
+	id= "2"
+	title = "Asignación práctica I (temas 1 - 4)"
+	value = "10">
+		<week>6</week>
+        <date>15/febrero/2019</date>
+	</eval>
+
+	<eval 
+	id= "3"
+	title = "Parcial II (temas 5 - 8)"
+	value = "15">
+		<week>9</week>
+        <date>8/marzo/2019</date>
+	</eval>
+
+	<eval 
+	id= "4"
+	title = "Asignación práctica II (temas 5 - 8)"
+	value = "10">
+		<week>9</week>
+        <date>12/marzo/2019</date>
+	</eval>
+
+	<eval 
+	id= "5"
+	title = "Parcial III (temas 9 - 12)"
+	value = "15">
+		<week>12</week>
+        <date>25/marzo/2019</date>
+	</eval>
+
+	<eval 
+	id= "6"
+	title = "Asignación práctica III (temas 9 - 12)	"
+	value = "10">
+		<week>12</week>
+    	<date>29/marzo/2019</date>
+	</eval>
+
+
+	<eval 
+	id= "7"
+	title = "Proyecto final (todos los temas)"
+	value = "25">
+		<week>14</week>
+        <date>8/abril/2019</date>
+		<date>12/abril/2019</date>
+	</eval>
+	
+</evaluations>
+
+
+
